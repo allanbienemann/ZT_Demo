@@ -1,0 +1,39 @@
+{
+  "nav": {
+    "brand": "TaskFlow",
+    "features": "Features",
+    "pricing": "Pricing",
+    "signin": "Sign in",
+    "getStarted": "Get started free"
+  },
+  "hero": {
+    "headline": "Get your team in sync — instantly",
+    "subheadline": "TaskFlow helps distributed teams manage projects, track progress, and hit deadlines without the chaos of endless email threads.",
+    "ctaPrimary": "Start for free",
+    "ctaSecondary": "Watch a demo",
+    "trustedBy": "Trusted by 10,000+ teams worldwide"
+  },
+  "features": {
+    "sectionTitle": "Everything your team needs",
+    "sectionSubtitle": "Simple, powerful, and built for collaboration.",
+    "card1": {
+      "title": "Real-time collaboration",
+      "description": "See changes as they happen. No refreshing, no conflicts — just seamless teamwork across time zones."
+    },
+    "card2": {
+      "title": "Smart deadlines",
+      "description": "Automatic reminders and workload balancing keep your projects on track without micromanagement."
+    },
+    "card3": {
+      "title": "Integrations you already use",
+      "description": "Connect with Slack, GitHub, Figma, and 50+ other tools your team relies on every day."
+    }
+  },
+  "footer": {
+    "tagline": "Built for teams that move fast.",
+    "copyright": "© 2025 TaskFlow, Inc. All rights reserved."
+  },
+  "languageSwitcher": {
+    "label": "Language"
+  }
+}
