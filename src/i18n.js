@@ -9,7 +9,7 @@ i18n
   .use(initReactI18next)      // wires i18next into React
   .init({
     fallbackLng: 'en',        // always fall back to English if a key is missing
-    supportedLngs: ['en', 'de', 'fr', 'es', 'pt', 'ja'],
+    supportedLngs: ['en', 'de', 'es', 'pt'],
     debug: false,
 
     interpolation: {

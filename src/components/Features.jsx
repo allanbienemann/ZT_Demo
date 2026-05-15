@@ -1,6 +1,10 @@
 import { useTranslation } from 'react-i18next'
 
-const CARDS = ['card1', 'card2', 'card3']
+const CARDS = [
+  { key: 'card1', icon: '⚡' },
+  { key: 'card2', icon: '🎯' },
+  { key: 'card3', icon: '🔌' },
+]
 
 export default function Features() {
   const { t } = useTranslation()
@@ -12,10 +16,11 @@ export default function Features() {
         <p>{t('features.sectionSubtitle')}</p>
       </div>
       <div className="features-grid">
-        {CARDS.map((card) => (
-          <div key={card} className="feature-card">
-            <h3>{t(`features.${card}.title`)}</h3>
-            <p>{t(`features.${card}.description`)}</p>
+        {CARDS.map(({ key, icon }) => (
+          <div key={key} className="feature-card">
+            <span className="feature-icon">{icon}</span>
+            <h3>{t(`features.${key}.title`)}</h3>
+            <p>{t(`features.${key}.description`)}</p>
           </div>
         ))}
       </div>
