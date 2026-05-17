@@ -2,6 +2,7 @@
   <footer class="footer">
     <SynContainer :width="SynContainerWidth.page">
       <div class="footer-top">
+        <div class="footer-right">
         <div class="footer-brand">
           <span class="footer-logo">{{ t('nav.brand') }}</span>
           <p class="footer-tagline">{{ t('footer.tagline') }}</p>
@@ -25,6 +26,7 @@
               <li v-for="k in COL_SUPPORT" :key="k"><a href="#">{{ t(`footer.${k}`) }}</a></li>
             </ul>
           </div>
+        </div>
         </div>
       </div>
       <div class="footer-bottom">
@@ -55,7 +57,13 @@ const COL_SUPPORT = ['linkDocs', 'linkStatus', 'linkContact', 'linkSecurity']
   padding: 56px 0 40px;
   flex-wrap: wrap;
 }
-.footer-brand { flex: 0 0 200px; }
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sds-spacing-5);
+  margin: 0 auto;
+}
+.footer-brand {}
 .footer-logo {
   display: block;
   font-size: var(--sds-font-lg);
@@ -71,8 +79,7 @@ const COL_SUPPORT = ['linkDocs', 'linkStatus', 'linkContact', 'linkSecurity']
 }
 .footer-cols {
   display: flex;
-  gap: 48px;
-  flex: 1;
+  gap: 96px;
   flex-wrap: wrap;
 }
 .footer-col h4 {
