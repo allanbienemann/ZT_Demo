@@ -1,0 +1,26 @@
+/* Global reset and base styles — everything else uses Syntax tokens via CSS vars */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  /* --sds-font-headings is Inter, registered by Syntax's stylesheet */
+  font-family: var(--sds-font-headings), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: var(--sds-color-neutral-90);
+  background: var(--sds-color-neutral-15);
+}
+
+#app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main { flex: 1; }
+
+h1, h2, h3, h4, h5, h6, p { margin: 0; }
+ul { margin: 0; padding: 0; list-style: none; }
+a { text-decoration: none; }

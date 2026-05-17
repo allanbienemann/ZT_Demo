@@ -1,31 +1,23 @@
-import i18n from 'i18next'
-import { initReactI18next } from 'react-i18next'
+import i18next from 'i18next'
 import HttpBackend from 'i18next-http-backend'
 import LanguageDetector from 'i18next-browser-languagedetector'
 
-i18n
-  .use(HttpBackend)           // loads translation files from public/locales/
-  .use(LanguageDetector)      // detects language from browser / localStorage
-  .use(initReactI18next)      // wires i18next into React
+// i18nReady is a Promise that resolves once the first locale file has loaded.
+// main.js waits on it before mounting the Vue app, so components never render
+// with missing translation keys.
+export const i18nReady = i18next
+  .use(HttpBackend)
+  .use(LanguageDetector)
   .init({
-    fallbackLng: 'en',        // always fall back to English if a key is missing
+    fallbackLng: false,
     supportedLngs: ['en', 'de', 'es', 'pt'],
     debug: false,
-
-    interpolation: {
-      escapeValue: false,     // React already escapes output, so this is safe to disable
-    },
-
-    backend: {
-      // Path to translation files. {{lng}} = language code, {{ns}} = namespace
-      loadPath: '/locales/{{lng}}/{{ns}}.json',
-    },
-
+    interpolation: { escapeValue: false },
+    backend: { loadPath: '/locales/{{lng}}/{{ns}}.json' },
     detection: {
-      // Where to store the user's language preference
       order: ['localStorage', 'navigator'],
       cacheUserLanguage: true,
     },
   })
 
-export default i18n
+export default i18next
