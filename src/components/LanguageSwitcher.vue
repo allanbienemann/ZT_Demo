@@ -1,7 +1,7 @@
 <template>
   <div class="lang-switcher">
     <label for="lang-select">{{ t('languageSwitcher.label') }}</label>
-    <select id="lang-select" :value="i18next.resolvedLanguage" @change="onChange">
+    <select id="lang-select" :value="i18next.language" @change="onChange">
       <option v-for="lang in LANGUAGES" :key="lang.code" :value="lang.code">
         {{ lang.label }}
       </option>

@@ -9,7 +9,7 @@ export const i18nReady = i18next
   .use(HttpBackend)
   .use(LanguageDetector)
   .init({
-    fallbackLng: 'en',
+    fallbackLng: false,
     supportedLngs: ['en', 'de', 'es', 'pt'],
     debug: false,
     interpolation: { escapeValue: false },
