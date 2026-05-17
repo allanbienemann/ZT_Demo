@@ -1,6 +1,7 @@
 import { createApp } from 'vue'
 import { SynPlugin } from '@syntax-design/syntax-ui'
 import '@syntax-design/syntax-ui/dist/style.css'
+import '@syntax-design/syntax-tokens/dist/themes/light.css'
 import I18NextVue from 'i18next-vue'
 import i18next, { i18nReady } from './i18n.js'
 import App from './App.vue'
