@@ -1,16 +1,45 @@
-# React + Vite
+# TaskFlow — Phrase Localization Demo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A demo web app for showcasing Phrase Strings localization workflows. The app simulates a realistic SaaS product (TaskFlow) and is designed to be used in demos where an untranslated English app gets localized into multiple languages via Phrase.
 
-Currently, two official plugins are available:
+## Tech stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Vue 3** with `<script setup>` SFCs
+- **Vite** — dev server and build tool
+- **@syntax-design/syntax-ui** — Phrase's internal Vue 3 component library
+- **i18next** + **i18next-vue** — runtime localization, with `i18next-http-backend` loading translation files from `public/locales/`
 
-## React Compiler
+## Supported languages
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+| Code | Language   |
+|------|------------|
+| `en` | English    |
+| `de` | Deutsch    |
+| `es` | Español    |
+| `pt` | Português  |
 
-## Expanding the ESLint configuration
+## Running locally
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+> **Requires VPN** — the `@syntax-design` packages are served from Phrase's internal Nexus registry.
+
+```bash
+npm install
+npm run dev
+```
+
+The app runs at [http://localhost:5173](http://localhost:5173).
+
+## Demo behavior
+
+- **Translation available** — the UI renders in the selected language.
+- **Translation missing** — the UI displays raw localization keys (e.g. `hero.headline`), making it clear what needs to be translated. This is intentional: it shows what the app looks like before Phrase has delivered the translations.
+
+## Resetting translations for a demo
+
+To remove all non-English locale files and return the app to its untranslated state, run:
+
+```bash
+bash scripts/reset-translations.sh
+```
+
+This deletes every folder under `public/locales/` except `en/`, leaving the English source strings intact. After running the script, selecting any non-English language in the dropdown will show localization keys instead of translated content.
