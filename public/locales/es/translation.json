@@ -1,0 +1,101 @@
+{
+  "cta": {
+    "button": "Comience — es gratis",
+    "headline": "Dejar de copiar y pegar traducciones en hojas de cálculo",
+    "subheadline": "Únete a miles de equipos que han hecho de la localización la parte menos estresante de su proceso de lanzamiento."
+  },
+  "features": {
+    "card1": {
+      "description": "Vea los cambios a medida que ocurren: sin conflictos de versiones ni refrescantes, solo un trabajo en equipo perfecto en cada zona horaria.",
+      "title": "Colaboración en tiempo real"
+    },
+    "card2": {
+      "description": "Los recordatorios automáticos y el equilibrio de la carga de trabajo mantienen sus versiones en curso sin microgestión ni hojas de cálculo.",
+      "title": "Plazos inteligentes"
+    },
+    "card3": {
+      "description": "Funciona con Slack, GitHub, Figma y más de 50 herramientas en las que confía tu equipo.La configuración tarda minutos, no semanas.",
+      "title": "Integraciones que ya utiliza"
+    },
+    "sectionSubtitle": "Suficientemente simple de usar el primer día, lo suficientemente potente como para no crecer.",
+    "sectionTitle": "Todo lo que tu equipo necesita"
+  },
+  "footer": {
+    "colCompany": "Empresa",
+    "colProduct": "Producto",
+    "colSupport": "Apoyo",
+    "copyright": "© 2025 TaskFlow, Inc. Todos los derechos reservados.",
+    "linkAbout": "Sobre nosotros",
+    "linkBlog": "Blog",
+    "linkCareers": "Carreras",
+    "linkChangelog": "Registro de cambios",
+    "linkContact": "Contáctenos",
+    "linkDocs": "Documentación",
+    "linkFeatures": "Características",
+    "linkIntegrations": "Integraciones",
+    "linkPress": "Prensa",
+    "linkPricing": "Precios",
+    "linkSecurity": "Seguridad",
+    "linkStatus": "Estado del sistema",
+    "tagline": "Construido para equipos que se mueven rápido."
+  },
+  "hero": {
+    "ctaPrimary": "Comienza gratis",
+    "ctaSecondary": "Vea cómo funciona",
+    "headline": "Tu equipo se envía más rápido cuando todos hablan el mismo idioma",
+    "subheadline": "TaskFlow mantiene alineados a los equipos distribuidos, en todas las zonas horarias, idiomas y plazos, con menos caos y más envíos.",
+    "trustedBy": "Confianza de más de 10.000 equipos en 80 países"
+  },
+  "howItWorks": {
+    "sectionSubtitle": "No se requiere ticket de TI. Sin configuración complicada. Solo conéctate y listo.",
+    "sectionTitle": "En funcionamiento en minutos",
+    "step1": {
+      "description": "Vincula tu repositorio de GitHub, sube tus archivos o visita nuestra API directamente. TaskFlow se conecta a tu flujo de trabajo sin interrumpirlo.",
+      "eyebrow": "Paso 1",
+      "title": "Conecta tu proyecto"
+    },
+    "step2": {
+      "description": "Agregue traductores, revisores y desarrolladores en cuestión de segundos.Todo el mundo obtiene exactamente el acceso que necesita, y nada que no deba.",
+      "eyebrow": "Paso 2",
+      "title": "Invita a tu equipo"
+    },
+    "step3": {
+      "description": "Las integraciones con un solo clic llevan las traducciones directamente a donde vive su código.",
+      "eyebrow": "Paso 3",
+      "title": "Envío en todos los idiomas"
+    }
+  },
+  "languageSwitcher": {
+    "label": "test07"
+  },
+  "nav": {
+    "brand": "TaskFlow",
+    "features": "Características",
+    "getStarted": "Empieza gratis",
+    "pricing": "Precios",
+    "signin": "Ingresar"
+  },
+  "stats": {
+    "item1": {
+      "label": "Equipos en todo el mundo",
+      "value": "10,000+"
+    },
+    "item2": {
+      "label": "Idiomas admitidos",
+      "value": "120+"
+    },
+    "item3": {
+      "label": "Tiempo medio de incorporación",
+      "value": "2 días"
+    },
+    "item4": {
+      "label": "Tiempo de actividad garantizado",
+      "value": "99.9%"
+    }
+  },
+  "testimonial": {
+    "author": "Sarah Chen",
+    "quote": "Reducimos el ciclo de localización de tres semanas a dos días, pero no puedo creerlo.",
+    "role": "Head of Product, Marble"
+  }
+}
