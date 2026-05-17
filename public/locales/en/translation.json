@@ -1,1 +1,101 @@
-{}
+{
+  "nav": {
+    "brand": "",
+    "features": "",
+    "pricing": "",
+    "signin": "",
+    "getStarted": ""
+  },
+  "hero": {
+    "headline": "",
+    "subheadline": "",
+    "ctaPrimary": "",
+    "ctaSecondary": "",
+    "trustedBy": ""
+  },
+  "stats": {
+    "item1": {
+      "value": "",
+      "label": ""
+    },
+    "item2": {
+      "value": "",
+      "label": ""
+    },
+    "item3": {
+      "value": "",
+      "label": ""
+    },
+    "item4": {
+      "value": "",
+      "label": ""
+    }
+  },
+  "howItWorks": {
+    "sectionTitle": "",
+    "sectionSubtitle": "",
+    "step1": {
+      "eyebrow": "",
+      "title": "",
+      "description": ""
+    },
+    "step2": {
+      "eyebrow": "",
+      "title": "",
+      "description": ""
+    },
+    "step3": {
+      "eyebrow": "",
+      "title": "",
+      "description": ""
+    }
+  },
+  "features": {
+    "sectionTitle": "",
+    "sectionSubtitle": "",
+    "card1": {
+      "title": "",
+      "description": ""
+    },
+    "card2": {
+      "title": "",
+      "description": ""
+    },
+    "card3": {
+      "title": "",
+      "description": ""
+    }
+  },
+  "testimonial": {
+    "quote": "",
+    "author": "",
+    "role": ""
+  },
+  "cta": {
+    "headline": "",
+    "subheadline": "",
+    "button": ""
+  },
+  "footer": {
+    "tagline": "",
+    "copyright": "",
+    "colProduct": "",
+    "linkFeatures": "",
+    "linkPricing": "",
+    "linkChangelog": "",
+    "linkIntegrations": "",
+    "colCompany": "",
+    "linkAbout": "",
+    "linkBlog": "",
+    "linkCareers": "",
+    "linkPress": "",
+    "colSupport": "",
+    "linkDocs": "",
+    "linkStatus": "",
+    "linkContact": "",
+    "linkSecurity": ""
+  },
+  "languageSwitcher": {
+    "label": ""
+  }
+}
