@@ -1,15 +1,14 @@
 phrase:
   project_id: 2ed9148252f5f53ee970c65b6d12732a
+  file_format: i18next
   push:
     sources:
     - file: ./public/locales/en/translation.json
       params:
-        file_format: i18next_4
         update_translations: true
         update_descriptions: true
   pull:
     targets:
     - file: ./public/locales/<locale_code>/translation.json
       params:
-        file_format: i18next_4
         include_empty_translations: true
