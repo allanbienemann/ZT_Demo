@@ -1,0 +1,101 @@
+{
+  "cta": {
+    "button": "Erste Schritte — kostenlos",
+    "headline": "Stoppen Sie das Kopieren von Übersetzungen in Tabellen",
+    "subheadline": "Schließen Sie sich Tausenden von Teams an, die die Lokalisierung zum stressfreisten Teil ihres Release-Prozesses gemacht haben."
+  },
+  "features": {
+    "card1": {
+      "description": "Kein Erfrischen, keine Versionskonflikte – einfach nahtlose Teamarbeit über jede Zeitzone hinweg.",
+      "title": "Zusammenarbeit in Echtzeit"
+    },
+    "card2": {
+      "description": "Automatische Erinnerungen und Workload Balancing halten Ihre Releases ohne Mikromanagement oder Tabellen auf Kurs.",
+      "title": "Smart Deadlines"
+    },
+    "card3": {
+      "description": "Funktioniert mit Slack, GitHub, Figma und mehr als 50 anderen Tools, auf die sich Ihr Team verlässt.",
+      "title": "Integrationen, die Sie bereits nutzen"
+    },
+    "sectionSubtitle": "Einfach genug, um es am ersten Tag zu verwenden.",
+    "sectionTitle": "Alles, was Ihr Team braucht"
+  },
+  "footer": {
+    "colCompany": "Unternehmen",
+    "colProduct": "Produkt",
+    "colSupport": "Unterstützung",
+    "copyright": "© 2025 TaskFlow, Inc. Alle Rechte vorbehalten.",
+    "linkAbout": "Über uns",
+    "linkBlog": "Blog",
+    "linkCareers": "Karriere",
+    "linkChangelog": "Changelog",
+    "linkContact": "kontaktieren Sie uns",
+    "linkDocs": "Dokumentation",
+    "linkFeatures": "Eigenschaften",
+    "linkIntegrations": "Integrationen",
+    "linkPress": "Presse",
+    "linkPricing": "Preise",
+    "linkSecurity": "Sicherheit",
+    "linkStatus": "System Status",
+    "tagline": "Gebaut für Teams, die sich schnell bewegen."
+  },
+  "hero": {
+    "ctaPrimary": "Kostenlos starten",
+    "ctaSecondary": "So funktioniert's",
+    "headline": "Ihr Team versendet schneller, wenn alle die gleiche Sprache sprechen",
+    "subheadline": "TaskFlow sorgt dafür, dass verteilte Teams aufeinander abgestimmt sind – über Zeitzonen, Sprachen und Fristen hinweg.",
+    "trustedBy": "Mehr als 10.000 Teams in 80 Ländern vertrauen uns"
+  },
+  "howItWorks": {
+    "sectionSubtitle": "Kein IT-Ticket erforderlich. Keine komplizierte Einrichtung. Einfach verbinden und los.",
+    "sectionTitle": "In Minuten einsatzbereit",
+    "step1": {
+      "description": "Verknüpfen Sie Ihr GitHub-Repo, laden Sie Ihre Dateien hoch oder klicken Sie direkt auf unsere API.TaskFlow fügt sich in Ihren Workflow ein, ohne ihn zu stören.",
+      "eyebrow": "Schritt 1",
+      "title": "Verbinden Sie Ihr Projekt"
+    },
+    "step2": {
+      "description": "Fügen Sie in Sekundenschnelle Übersetzer, Gutachter und Entwickler hinzu. Jeder erhält genau den Zugriff, den er benötigt – und nichts, was er nicht sollte.",
+      "eyebrow": "Schritt 2",
+      "title": "Laden Sie Ihr Team ein"
+    },
+    "step3": {
+      "description": "Überprüfen, genehmigen und exportieren – Ein-Klick-Integrationen bringen Übersetzungen direkt an die Stelle, an der Ihr Code liegt.",
+      "eyebrow": "Schritt 3",
+      "title": "Versand in jeder Sprache"
+    }
+  },
+  "languageSwitcher": {
+    "label": "Sprache"
+  },
+  "nav": {
+    "brand": "TaskFlow",
+    "features": "Eigenschaften",
+    "getStarted": "Starten Sie kostenlos",
+    "pricing": "Preise",
+    "signin": "Anmelden"
+  },
+  "stats": {
+    "item1": {
+      "label": "Teams weltweit",
+      "value": "10,000+"
+    },
+    "item2": {
+      "label": "Unterstützte Sprachen",
+      "value": "120+"
+    },
+    "item3": {
+      "label": "Durchschnittliche Onboarding-Zeit",
+      "value": "2 Tage"
+    },
+    "item4": {
+      "label": "Verfügbarkeit garantiert",
+      "value": "99.9%"
+    }
+  },
+  "testimonial": {
+    "author": "Sarah Chen",
+    "quote": "Wir haben unseren Lokalisierungszyklus von drei Wochen auf zwei Tage verkürzt.",
+    "role": "Leiter Produkt, Marmor"
+  }
+}
