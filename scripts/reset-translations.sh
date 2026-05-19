@@ -23,7 +23,7 @@ for dir in "$LOCALES_DIR"/*/; do
   fi
 done
 
-echo "  Emptying en/translation.json"
-echo "{}" > "$EN_FILE"
+echo "  Restoring en/translation.json to Lorem Ipsum state"
+cp "$(dirname "$0")/en.lorem.json" "$EN_FILE"
 
-echo "Done. All translations cleared."
+echo "Done. Translations reset to Lorem Ipsum state."
