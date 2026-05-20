@@ -1,101 +1,101 @@
 {
-  "cta": {
-    "button": "Get started — it's free",
-    "headline": "Stop copy-pasting translations into spreadsheets",
-    "subheadline": "Join thousands of teams who've made localization the least stressful part of their release process."
-  },
-  "features": {
-    "card1": {
-      "description": "See changes as they happen. No refreshing, no version conflicts — just seamless teamwork across every time zone.",
-      "title": "Real-time collaboration"
-    },
-    "card2": {
-      "description": "Automatic reminders and workload balancing keep your releases on track without micromanagement or spreadsheets.",
-      "title": "Smart deadlines"
-    },
-    "card3": {
-      "description": "Works with Slack, GitHub, Figma, and 50+ other tools your team relies on. Setup takes minutes, not weeks.",
-      "title": "Integrations you already use"
-    },
-    "sectionSubtitle": "Simple enough to use on day one. Powerful enough to never outgrow.",
-    "sectionTitle": "Everything your team needs"
-  },
-  "footer": {
-    "colCompany": "Company",
-    "colProduct": "Product",
-    "colSupport": "Support",
-    "copyright": "© 2025 TaskFlow, Inc. All rights reserved.",
-    "linkAbout": "About us",
-    "linkBlog": "Blog",
-    "linkCareers": "Careers",
-    "linkChangelog": "Changelog",
-    "linkContact": "Contact us",
-    "linkDocs": "Documentation",
-    "linkFeatures": "Features",
-    "linkIntegrations": "Integrations",
-    "linkPress": "Press",
-    "linkPricing": "Pricing",
-    "linkSecurity": "Security",
-    "linkStatus": "System status",
-    "tagline": "Built for teams that move fast."
+  "nav": {
+    "brand": "Lorem ipsum",
+    "features": "Lorem ipsum",
+    "pricing": "Lorem ipsum",
+    "signin": "Lorem ipsum",
+    "getStarted": "Lorem ipsum dolor"
   },
   "hero": {
-    "ctaPrimary": "Start for free",
-    "ctaSecondary": "See how it works",
-    "headline": "Your team ships faster when everyone speaks the same language",
-    "subheadline": "TaskFlow keeps distributed teams aligned — across time zones, languages, and deadlines. Less chaos, more shipping.",
-    "trustedBy": "Trusted by 10,000+ teams in 80 countries"
-  },
-  "howItWorks": {
-    "sectionSubtitle": "No IT ticket required. No complicated setup. Just connect and go.",
-    "sectionTitle": "Up and running in minutes",
-    "step1": {
-      "description": "Link your GitHub repo, upload your files, or hit our API directly. TaskFlow plugs into your workflow without disrupting it.",
-      "eyebrow": "Step 1",
-      "title": "Connect your project"
-    },
-    "step2": {
-      "description": "Add translators, reviewers, and developers in seconds. Everyone gets exactly the access they need — and nothing they shouldn't.",
-      "eyebrow": "Step 2",
-      "title": "Invite your team"
-    },
-    "step3": {
-      "description": "Review, approve, and export. One-click integrations push translations straight to where your code lives.",
-      "eyebrow": "Step 3",
-      "title": "Ship in every language"
-    }
-  },
-  "languageSwitcher": {
-    "label": "Language"
-  },
-  "nav": {
-    "brand": "TaskFlow",
-    "features": "Features",
-    "getStarted": "Get started free",
-    "pricing": "Pricing",
-    "signin": "Sign in"
+    "headline": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do",
+    "subheadline": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna",
+    "ctaPrimary": "Lorem ipsum dolor",
+    "ctaSecondary": "Lorem ipsum dolor",
+    "trustedBy": "Lorem ipsum dolor sit amet consectetur"
   },
   "stats": {
     "item1": {
-      "label": "Teams worldwide",
-      "value": "10,000+"
+      "value": "Lorem ipsum",
+      "label": "Lorem ipsum dolor"
     },
     "item2": {
-      "label": "Languages supported",
-      "value": "120+"
+      "value": "Lorem",
+      "label": "Lorem ipsum dolor sit"
     },
     "item3": {
-      "label": "Average onboarding time",
-      "value": "2 days"
+      "value": "Lorem",
+      "label": "Lorem ipsum dolor sit amet"
     },
     "item4": {
-      "label": "Uptime guaranteed",
-      "value": "99.9%"
+      "value": "Lorem",
+      "label": "Lorem ipsum dolor"
+    }
+  },
+  "howItWorks": {
+    "sectionTitle": "Lorem ipsum dolor sit amet",
+    "sectionSubtitle": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod",
+    "step1": {
+      "eyebrow": "Lorem",
+      "title": "Lorem ipsum dolor sit",
+      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut"
+    },
+    "step2": {
+      "eyebrow": "Lorem",
+      "title": "Lorem ipsum dolor",
+      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim"
+    },
+    "step3": {
+      "eyebrow": "Lorem",
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore"
+    }
+  },
+  "features": {
+    "sectionTitle": "Lorem ipsum dolor sit amet",
+    "sectionSubtitle": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod",
+    "card1": {
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna"
+    },
+    "card2": {
+      "title": "Lorem ipsum dolor",
+      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna"
+    },
+    "card3": {
+      "title": "Lorem ipsum dolor sit amet",
+      "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore"
     }
   },
   "testimonial": {
-    "author": "Sarah Chen",
-    "quote": "We cut our localization cycle from three weeks down to two days. I still can't quite believe it.",
-    "role": "Head of Product, Marble"
+    "quote": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore",
+    "author": "Lorem ipsum",
+    "role": "Lorem ipsum dolor sit amet"
+  },
+  "cta": {
+    "headline": "Lorem ipsum dolor sit amet consectetur adipiscing",
+    "subheadline": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et",
+    "button": "Lorem ipsum dolor sit amet"
+  },
+  "footer": {
+    "tagline": "Lorem ipsum dolor sit amet",
+    "copyright": "Lorem ipsum dolor sit amet consectetur",
+    "colProduct": "Lorem ipsum",
+    "linkFeatures": "Lorem ipsum",
+    "linkPricing": "Lorem ipsum",
+    "linkChangelog": "Lorem ipsum",
+    "linkIntegrations": "Lorem ipsum",
+    "colCompany": "Lorem ipsum",
+    "linkAbout": "Lorem ipsum",
+    "linkBlog": "Lorem",
+    "linkCareers": "Lorem ipsum",
+    "linkPress": "Lorem",
+    "colSupport": "Lorem ipsum",
+    "linkDocs": "Lorem ipsum dolor",
+    "linkStatus": "Lorem ipsum dolor",
+    "linkContact": "Lorem ipsum",
+    "linkSecurity": "Lorem ipsum"
+  },
+  "languageSwitcher": {
+    "label": "Lorem ipsum"
   }
 }
