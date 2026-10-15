@@ -31,7 +31,7 @@ The app runs at [http://localhost:5173](http://localhost:5173).
 
 ## Demo behavior
 
-- **Translation file empty** — the UI displays raw localization keys (e.g. `hero.headline`) for every language, including English. This is the starting state of the demo.
+- **Initial state** — every string in the English file is Lorem Ipsum (length-matched placeholder text) and no other locale folders exist. This is the starting state of the demo.
 - **Translation file populated** — the UI renders in the language whose translation file is present and non-empty.
 - **Translation file missing** — selecting a language with no file also shows localization keys, making it clear what is waiting to be translated.
 
@@ -45,7 +45,7 @@ Three scripts in `scripts/` control the demo lifecycle:
 bash scripts/reset-translations.sh
 ```
 
-Removes all translated locale folders (de, es, pt, etc.) and empties `public/locales/en/translation.json` to `{}`. Run this before every demo to return to the blank starting state.
+Removes all translated locale folders (de, es, pt, etc.) and restores `public/locales/en/translation.json` to the Lorem Ipsum state from `scripts/en.lorem.json`. Run this before every demo to return to the starting state.
 
 ### 2. Populate English (during the demo)
 
@@ -58,3 +58,11 @@ Fills `public/locales/en/translation.json` with the full set of English source s
 ### 3. Source of truth
 
 `scripts/en.source.json` holds the canonical English strings. **Do not modify this file** — it is the stable reference that `populate-translations.sh` copies from.
+
+## Zero Touch Localization flow
+
+1. Branch off `main` (`feat/en-MMDD-HHMM`), run `populate-translations.sh`, commit, push, and open a PR against `main`.
+2. Phrase ZTL detects the PR, imports the changed English file (per `.phrase.yml`) into the Strings project, translates it, and commits the de/es/pt files back to the PR branch.
+3. Review and merge the PR, then pull `main`.
+
+To demo English first, stay checked out on the PR branch after opening it (the site shows English), then `git pull` once ZTL has committed (the site shows de/es/pt).
